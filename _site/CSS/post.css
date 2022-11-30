@@ -1,0 +1,47 @@
+/* Style the header*/
+#header {
+    text-align: center;
+    padding: 20px;
+    color: #5D3FD3;
+    background-color: #F2F2F2;
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+  }
+/*Style the Nav*/
+#homeNav {
+    padding: 20px;
+    color: #5D3FD3;
+    background-color: #F2F2F2;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+  }
+/*Style post title*/
+#postTitle {
+    padding: 20px;
+    color: #5D3FD3;
+    background-color: #F2F2F2;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*Style post content*/
+#postDesc {
+    padding: 20px;
+    color: #000000;
+    background-color: #F2F2F2;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*style image container*/
+#imageContainer {
+   display: flex;
+   justify-content: center;
+}
+/*style post image to line up with title*/
+#postImg {
+    padding: 20px;
+    height: auto;
+    width: 30rem;
+    background-color: #F2F2F2;
+}
