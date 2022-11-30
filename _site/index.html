@@ -4,40 +4,46 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./CSS/style.css">
         <title>Ray's Tech Blog</title>
     </head>
 
     <body>
         <div>
-            <h1>Ray's Tech Blog Root</h1>
+            <h1 id="header">Ray's Tech Blog</h1>
         </div>
-        <section>
-            <h2>Posts</h2>
+        <h2 id="postHeader">Posts</h2>
+        <section id="postSection">
 
             <ul>
-                <li>Post 1 - Title
-                <img>
-                <p>Post 1 - Description</p>
-                <button><a href="./post1.html">Read More</a></button>
+                <li class="postTitle">VR, Here to stay or just a fad?</li>
+                <img class="postImg" src="./img/vr.jpg">
+                <p class="postDesc">This article is about the future of vr gaming and the state of the industry today.</p>
+                <button class="postButton"><a href="./post1.html">Read More</a></button>
                 </li>
             </ul>
 
             <ul>
-                <li>Post 2 - Title
-                <img>
-                <p>Post 2 - Description</p>
-                <button><a href="./_site/posts/post2.html">Read More</a></button>
+                <li class="postTitle">Samsungs new foldable phones!</li>
+                <img class="postImg" src="./img/zflip4.jpg">
+                <p class="postDesc">This article is about Samsungs new folding phone the Galaxy Z Flip 4 and the Galaxy Z Fold 4.</p>
+                <button class="postButton"><a href="./posts/post2.html">Read More</a></button>
                 </li>
             </ul>
 
             <ul>
-                <li>Post 3 - Title
-                <img>
-                <p>Post 3 - Description</p>
-                <button><a href="./_site/posts/post3.html">Read More</a></button>
+                <li class="postTitle">Learn to code by playing this game!</li>
+                <img class="postImg" src="./img/Fcc.png">
+                <p class="postDesc">This article is about a game created to help you learn computer science.</p>
+                <button class="postButton"><a href="./posts/post3.html">Read More</a></button>
                 </li>
             </ul>
         </section>
         <script src="./JS/script.js"></script>
+
+        <!--Add a copyright-->
+        <footer id="footer">
+            <p>© 2022 Ray's Tech Blog</p>
+        </footer>
     </body>
 </html>
